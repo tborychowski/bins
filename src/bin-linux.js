@@ -27,6 +27,7 @@ function getSize (bin) {
 		Exec('du', ['-sB1', bin.path], (err, stdout) => {
 			if (err) return reject(err);
 			bin.size = parseInt(('' + stdout).trim().split('\t')[0], 10);
+			bin.size = bin.items ? bin.size : 0;
 			return resolve(bin);
 		});
 	});
