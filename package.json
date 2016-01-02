@@ -1,0 +1,17 @@
+{
+  "name": "bins",
+  "version": "1.0.0",
+  "description": "cross-platform bin manager; list bins, empty bins and move files to bins!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom",
+  "license": "MIT",
+  "dependencies": {
+    "bytes": "^2.2.0",
+    "drivelist": "^2.0.6",
+    "rimraf": "^2.5.0",
+    "run-applescript": "^2.1.0"
+  }
+}
