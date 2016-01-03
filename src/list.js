@@ -5,7 +5,7 @@ const bytes = require('bytes');
 const handlers = {
 	win32: require('./bin-win32'),
 	linux: require('./bin-linux'),
-	// darwin: require('./bin-darwin')
+	darwin: require('./bin-darwin')
 };
 const Bin = handlers[process.platform];
 
