@@ -1,6 +1,6 @@
 # bins
 
-cross-platform bin manager; list bins, empty bins and move files to bins!
+cross-platform bin manager; list and empty all your bins!
 
 
 
