@@ -2,10 +2,13 @@
 
 const list = require('./src/list');
 const empty = require('./src/empty');
+const bin = require('trash');
+
 
 module.exports = {
 	get: () => list.get().then(list.total),
-	empty
+	empty,
+	bin
 };
 
 

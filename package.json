@@ -13,6 +13,7 @@
     "bytes": "^2.2.0",
     "drivelist": "^2.0.6",
     "rimraf": "^2.5.0",
-    "run-applescript": "^2.1.0"
+    "run-applescript": "^2.1.0",
+    "trash": "^3.4.1"
   }
 }
