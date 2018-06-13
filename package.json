@@ -8,7 +8,7 @@
     "url": "https://github.com/tborychowski/bins.git"
   },
   "author": "Tom",
-  "license": "MIT",
+  "license": "GPL-3.0-or-later",
   "dependencies": {
     "bytes": "^2.2.0",
     "drivelist": "^2.0.6",
